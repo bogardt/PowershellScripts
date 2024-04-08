@@ -1,6 +1,6 @@
 #Parameters
-$path = "C:\Program Files (x86)"
-$outputFile ="C:\Program Files (x86)\FolderSize.csv"
+$path = "C:\"
+$outputFile =".\FolderSize.csv"
  
 #Get all Folders, Sub-Folders recursively
 $folders = Get-ChildItem -Path $Path -Directory -Recurse
